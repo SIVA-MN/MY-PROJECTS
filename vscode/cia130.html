@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let a=window.prompt("Enter the amount");
+            let b=0;
+            if(a>=100)
+            {
+                b+=parseInt(a/100);
+                a%=100
+            }
+            if(a>=50)
+            {
+                b+=parseInt(a/50);
+                a%=50
+            }
+            if(a>=10)
+            {
+                b+=parseInt(a/10);
+                a%=10
+            }
+            if(a>=5)
+            {
+                b+=parseInt(a/5);
+                a%=5
+            }
+            if(a>=2)
+            {
+                b+=parseInt(a/2);
+                a%=2
+            }
+            if(a>=1)
+            {
+                b+=a;
+            }
+            document.write
+            (b)
+        </script>
+    </body>
+</html>

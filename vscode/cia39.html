@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let a=window.prompt("Enter a number")
+            let x=a;
+            let y=0,z=0;
+            let k=a.length;
+            while(x>0)
+            {
+                y=x%10;
+                z+=(y**k);
+                x=parseInt(x/10);
+            }
+            if(z==a)
+            {
+                document.write("The given number is an Amstrong number.")
+            }
+            else
+            {
+                document.write("The given number is not an Amstrong number.")
+            }
+        </script>
+    </body>
+</html>
